@@ -1,0 +1,254 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	background: white;
+	color: white;
+	height: 10vh;
+}
+
+.main{
+	background: white ;
+	clear: both; /* Preventivo*/
+}
+
+.banner{
+	background: darkblue;
+	height: 80vh;
+	max-width: 100vw;
+
+	background-image: url("vantagens-de-ser-medico-pj.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+
+	
+}
+footer{
+	background: #e84118;
+	color: #f7f1e3;
+}
+.logo{
+	width: 20vw;
+	height: 10vh;
+	background-color: white;
+	float: left;
+	
+}
+.logo > img{
+	width: 20vw;
+	height: 10vh;
+}
+.menu{
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}	
+.menu > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-weight: bolder;
+	font-size:1.5rem ;
+	background-color: white;
+	width: 8vw;
+	text-align: center;
+	border: dotted 1px white;
+	height: 10vh;
+	cursor: pointer;
+	transition: 0.3s;
+}
+ .menu > div:hover{
+ 	background-color: white;
+ 	font-size: 1.7rem;
+ 	transition: 0.8s;
+ }
+#class{
+ 	background-color: white;
+ }
+.section{
+	background-color: white;
+}
+
+
+.sobre{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+
+ .texto{
+ 	flex: 1;
+ 	text-align: center;
+ 	font-size: 30px;
+ 	background-color: white;
+ }
+ .imagem{
+ 	flex: 1;
+ 	text-align: center;
+
+ }
+
+
+
+
+
+ #MiViVa{
+ 	position: relative;
+/* 	border: 1px solid blue;*/
+ 	height: 480px;
+ }
+
+
+.c1{
+position: absolute;
+top: 10px;
+text-align: center;
+padding-top: 100px;
+
+
+
+left: 290px;
+ width: 350px;
+ height: 350px;
+ background-color: green;
+ border-radius: 175px;
+ color: white;
+
+ border: solid;
+ border-color: grey;
+
+ }
+
+
+.c2{
+position: absolute;
+left: 610px;
+top: 100px;
+text-align: center;
+padding-top: 100px;
+
+width: 350px;
+height: 350px;
+background-color: blue;
+border-radius: 175px;
+color: white;
+z-index: 1;
+border: solid;
+border-color: grey;
+}
+
+
+.c3{
+position: absolute;
+right: 300px;
+top: 10px;
+text-align: center;
+padding-top: 100px;
+color: white;
+
+ width: 350px;
+ height: 350px;
+ background-color: green;
+ border-radius: 175px;
+
+ border: solid;
+ border-color: grey;
+ }
+ .mae{
+ 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+ }
+ .junior{
+ 	flex: 1;
+ 	text-align: center;
+ }
+ .manel{
+ 	flex: 1;
+ 	text-align: center;
+ }
+
+
+
+
+.Aval{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+/*	border: 1px solid blue;*/
+}
+
+.img1{
+	flex: 1;
+	text-align: center;
+/*	border: 1px solid blue;*/
+}
+
+.img2{
+	flex: 2;
+	text-align: center;
+/*		border: 1px solid blue;*/
+}
+.img3{
+	flex: 1;
+	text-align: center;
+/*		border: 1px solid blue;*/
+}
+.pai{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	color: black;
+}
+.r1{
+    flex: 1;
+    text-align: center;
+}
+.r2{
+    flex: 1;
+    text-align: center;
+}
+.r3{
+    flex: 1;
+    text-align: center;
+}
+
+.med{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.m1{
+	flex: 1;
+	text-align: center;
+}
+.m2{
+	flex: 1;
+	text-align: center;
+}
+.m3{
+	flex: 1;
+	text-align: center;
+}
+.m4{
+	flex: 1;
+	text-align: center;
+}
+
+h2{
+	font-size: 2.5rem;
+}
